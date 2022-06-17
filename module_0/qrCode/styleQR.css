@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #19bc9c;
+}
+
+.container {
+    background-color: #fff;
+    margin-top: 15%;
+    width: 50%;
+    border-radius: 5px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+    text-transform: uppercase;
+}
+
+.qrcode {
+    width: 100% !important;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px!important;
+    width: 100% !important;
+}
+
+.libtn {
+    padding: 6% 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bntdownload {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color:#19bc9c;
+    color: #000;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+.bntDone {
+    text-decoration:none !important;
+    color: #000;
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color:#19bc9c;
+    color: #000;
+    border-radius: 5px;
+    margin: 0 15px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bntdownload:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.bntDone:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin-top: 40%;
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .libtn {
+        flex-direction: column;
+    }
+    .bntdownload {
+        margin: 15px 30px;
+    }
+    .bntDone {
+        margin: 15px 30px;
+    }
+
+    .container {
+        margin-top:15%;
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 550px) {
+   
+}
